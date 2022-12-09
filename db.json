@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "description": "Dynamic Island, a new and magical way to interact with your iPhone.",
+      "id": "1",
+      "image": "../../../assets/images/iphone.jpg",
+      "price": 1479,
+      "title": "Apple iPhone 14 Pro Max"
+    },
+    {
+      "description": "The Most Powerful Note Series Yet.",
+      "id": "2",
+      "image": "../../../assets/images/samsung.jpg",
+      "price": 869,
+      "title": "Samsung Galaxy Note 20 Ultra"
+    },
+    {
+      "description": "Thanks to Xiaomi's 200 MP imaging system with a proprietary algorithm, it's now easier to shoot with a reliable result. Like a pro.",
+      "id": "3",
+      "image": "../../../assets/images/xiaomi.jpg",
+      "price": 689,
+      "title": "XIAOMI 12T Pro"
+    }
+  ]
+}

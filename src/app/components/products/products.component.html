@@ -1,0 +1,19 @@
+<div class="container" xmlns="http://www.w3.org/1999/html">
+  <div class="row">
+<!--    (mouseenter)="hovering(productList.item, true)" (mouseleave)="hovering(productList.item, false)"-->
+
+    <h4 style="text-align: center; margin-top: 20px; margin-bottom: 50px">Come and discover our products</h4>
+    <ng-container *ngFor="let item of productList">
+
+      <div class="card col-md-3">
+        <img src="{{item.image}}" alt="">
+        <h5 style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100ch;">{{item.title}}</h5>
+        <p style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100ch;">{{item.description}}</p>
+        <p><strong>Amount: </strong>{{item.price | currency:'EUR':'symbol':'3.0'}}</p>
+        <button  class="btn btn-primary" (click)="addToCart(item)">Add to cart</button>
+<!--        [ngClass]="{'NotHover': hovered === false, 'Hover': hovered === true}"-->
+      </div>
+
+    </ng-container>
+  </div>
+</div>

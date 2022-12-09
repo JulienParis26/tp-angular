@@ -16,7 +16,7 @@ Ouvrir un second terminal, effectuer la commande suivante pour lancer le serveur
   json-server --watch db.json
 ```
 
-Si l'installation de json-server est requise, efectuer la commande suivante et relancer le serveur pour l'accès aux données :
+Si l'installation des dépendances pour json-server est requise, effectuer la commande ci-dessous. Une fois cela fait, relancer la commande précédente.
 ```bash
   npm install json-server
 ```
